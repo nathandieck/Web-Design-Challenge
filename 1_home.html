@@ -5,7 +5,14 @@
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
     <link rel="stylesheet" type = "text/css" href="style.css">
 </head>
 
@@ -13,36 +20,36 @@
 <body>
 
   <!--This is all for the navbar here - copy+paste to all pages-->
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #00B3A8;">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00B3A8;">
 
         <a class="navbar-brand" href="1_home.html">
           <img src=./Assets/logo.svg title="WeatherPy Data Visualization Project" alt="logo" width="45" height="45">
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
   
-        <div class="collapse navbar-collapse" id="navbarsExample04">
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
           <ul class="navbar-nav flex-row ml-md-auto d-non d-md-flex">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="1_home.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="vizdrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Data Visualizations</a>
+              <a class="nav-link dropdown-toggle" href="#" id="vizdrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Visualizations</a>
               <div class="dropdown-menu" aria-labelledby="vizdrop">
-                <a class="dropdown-item" href="#">Temperature</a>
-                <a class="dropdown-item" href="#">Cloud Cover</a>
-                <a class="dropdown-item" href="#">Humidity</a>
-                <a class="dropdown-item" href="#">Wind Speeds</a>
+                <a class="dropdown-item" href="2_temperature.html">Temperature</a>
+                <a class="dropdown-item" href="3_cloud_cover.html">Cloud Cover</a>
+                <a class="dropdown-item" href="4_humidity.html">Humidity</a>
+                <a class="dropdown-item" href="5_wind_speed.html">Wind Speeds</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Comparisons<span class="sr-only"></span></a>
+              <a class="nav-link" href="6_comparisons.html">Comparisons<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
+              <a class="nav-link" href="7_data.html">Data</a>
             </li>
           </ul>
 
@@ -50,9 +57,11 @@
         </div>
     </nav>
 
-    <!--navbar ends at this line.-->
+   <!--navbar ends at this line.-->
 
-    
+  
+
+
     <!--Page content starts here.-->
     <div class = "container">
         <div class = "row">
@@ -86,8 +95,14 @@
             
             </div>
         </div>
-    </div>
-  
+
+    <!--My color bar at the bottom occurs below this line-->
+ 
+<div class="footer">
+
+</div>
+
+
 </body>
 
 </html>

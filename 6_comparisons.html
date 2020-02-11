@@ -4,7 +4,7 @@
 <head>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Windspeed and Latitude</title>
+    <title>Comparisons</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
@@ -36,16 +36,16 @@
             <li class="nav-item">
               <a class="nav-link" href="1_home.html">Home<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="vizdrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Visualizations</a>
               <div class="dropdown-menu" aria-labelledby="vizdrop">
                 <a class="dropdown-item" href="2_temperature.html">Temperature</a>
                 <a class="dropdown-item" href="3_cloud_cover.html">Cloud Cover</a>
                 <a class="dropdown-item" href="4_humidity.html">Humidity</a>
-                <a class="dropdown-item active" href="5_wind_speed.html">Wind Speeds</a>
+                <a class="dropdown-item" href="5_wind_speed.html">Wind Speeds</a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="6_comparisons.html">Comparisons<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
@@ -59,45 +59,49 @@
 
    <!--navbar ends at this line.-->
 
-
-      <div class="container">
-          <div class="row">
-                <div class = "col-md-8">
-                    <h1>Rebellious subjects, enemies to peace!</h1>
-                    <img class="mainviz" src="./Assets/wind_speed_x_lat.png" title="global temperature by latitude" alt="global temperature by latitude">
-                    <p>Profaners of this neighbor-stainèd steel!
-                        Will they not hear?
-                        What, ho? You men, you beasts, that quench the fire of your pernicious rage with purple fountains issuing from your veins.
-                        On pain of torture, from those bloody hands, throw your mistempered weapons to the ground, and hear the sentence of your movèd prince.
-                        Three civil brawls, bred of an airy word, by thee, old Capulet, and Montague, have thrice disturbed the quiet of our streets and made Verona’s ancient citizens cast by their grave-beseeming ornaments, to wield old partisans in hands as old, cankered with peace, to part your cankered hate.
-                        If ever you disturb our streets again, your lives shall pay the forfeit of the peace.</p>
-                </div>
-                <div class = "col-md-4">
-                    <h1>Project Visualizations</h1>
-                    <hr>
-                    <a href="2_temperature.html">
-                      <img class="homeviz" src="./Assets/global_temp_x_lat.png" title="global temperature by latitude" alt="global temperature by latitude" width="150" height="100">
-                    </a>
-                    <a href="3_cloud_cover.html">
-                      <img class="homeviz" src="./Assets/cloud_cover_x_lat.png" title="global cloud cover by latitude" alt="global cloud cover by latitude" width="150" height="100">
-                    </a>
-                    <a href="4_humidity.html">
-                      <img class="homeviz" src="./Assets/humidity_x_lat.png" title="global humidity by latitude" alt="global humidity by latitude" width="150" height="100">
-                    </a>
-                    <a href="5_wind_speed.html">
-                      <img class="homeviz" src="./Assets/wind_speed_x_lat.png" title="global wind speeds by latitude" alt="global wind speeds by latitude" width="150" height="100">
-                    </a>
-                    
-                  
-                  </div>
-          </div>
-      </div>
-
+    
+    <!--Page content starts here.-->
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-12">
+                <h1>Project Visualizations</h1>
+                <h3>Different Trends</h3>
+                <hr>
+            </div>
+        </div>
+        
+        <div class = "row">
+            <div class = "col-md-6">
+              <a href="2_temperature.html">
+                <img class="homeviz" src="./Assets/global_temp_x_lat.png" title="global temperature by latitude" alt="global temperature by latitude">
+              </a>
+            </div>
+            <div class = "col-md-6">
+              <a href="3_cloud_cover.html">
+                <img class="homeviz" src="./Assets/cloud_cover_x_lat.png" title="global cloud cover by latitude" alt="global cloud cover by latitude">
+              </a>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-6">
+              <a href="4_humidity.html">
+                <img class="homeviz" src="./Assets/humidity_x_lat.png" title="global humidity by latitude" alt="global humidity by latitude">
+              </a>
+            </div>
+            <div class = "col-md-6">
+              <a href="5_wind_speed.html">
+                <img class="homeviz" src="./Assets/wind_speed_x_lat.png" title="global wind speeds by latitude" alt="global wind speeds by latitude">
+              </a>
+            </div>
+            
+        </div>
+    </div>
+  
     <!--My color bar at the bottom occurs below this line-->
  
     <div class="footer">
 
-    </div>
+      </div>
 
 </body>
 
