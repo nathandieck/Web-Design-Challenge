@@ -1,6 +1,13 @@
-.wrapper {
-    min-height: 100%;
-    margin-bottom: 20px;
+/*Generic formats follow*/
+
+h3 {
+    font-style: italic;
+    font-family: "EurostileHea", Arial, sans-serif;
+}
+
+/*Specific classes and IDs follow*/
+.navbar {
+    margin-bottom: 30px;
 }
 
 #title_image {
@@ -18,15 +25,22 @@
 }
 
 .mainviz {
+    display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    width: 50%;
 }
 
-#bottom-border{
-    position: sticky;
+
+.footer{
+    position: fixed;
     left: 0;
+    bottom: 0;
     right: 0;
     background: #00B3A8;
-    height: 20px;
-    padding-top: 25px;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    margin-top: 30px;
+    /*padding-top: 25px*/;
 }
