@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00B3A8;">
 
         <a class="navbar-brand" href="1_home.html">
-          <img src=./Assets/logo.svg title="WeatherPy Data Visualization Project" alt="logo" width="45" height="45">
+          <img src=./Assets/logo.svg title="WeatherPy Data Visualization Project" alt="placeholder logo" width="45" height="45">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,15 +66,33 @@
     <div class = "container">
         <div class = "row">
             <div class = "col-md-8">
-                <img id="title_image" src="./Assets/rebel alliance.png" alt="placeholder art" width="200" height="200">
-                <h1>Rebellious subjects, enemies to peace!</h1>
+                <img class = "responsive" id="title_image" src="./Assets/logo.svg" alt="placeholder art" title="WeatherPy placeholder logo. It's totally not a shark's fin.">
+                <h1>WeatherPy Data Visualization Project</h1>
                 <hr>
-                <p>Profaners of this neighbor-stainèd steel!
-                    Will they not hear?
-                    What, ho? You men, you beasts, that quench the fire of your pernicious rage with purple fountains issuing from your veins.
-                    On pain of torture, from those bloody hands, throw your mistempered weapons to the ground, and hear the sentence of your movèd prince.
-                    Three civil brawls, bred of an airy word, by thee, old Capulet, and Montague, have thrice disturbed the quiet of our streets and made Verona’s ancient citizens cast by their grave-beseeming ornaments, to wield old partisans in hands as old, cankered with peace, to part your cankered hate.
-                    If ever you disturb our streets again, your lives shall pay the forfeit of the peace.</p>
+                <p>The WeatherPy Data Visualization utilized the power of Python automation to collect and 
+                  evaluate the current weather in more than 500 world cities with an eye toward identifying weather trends 
+                  across different latitudes on the globe. Randomly selected cities on the globe were used as queries for the 
+                  OpenWeather API to create a database of current weather conditions on Earth which was then used to look for 
+                  trends including:
+                </p>
+                  <ul>
+                    <li class="bodylink"><a href=2_temperature.html>Temperature x Latitude</a></li>
+                    <li class="bodylink"><a href=4_humidity.html>Humidity x Latitude</a></li>
+                    <li class="bodylink"><a href=5_wind_speed.html>Winds x Latitude</a></li>
+                    <li class="bodylink"><a href=3_cloud_cover.html>Cloud Cover x Latitude</a></li>
+                  </ul>
+
+                  <p>The goal was to evaluate for each of these areas with the following hypotheses in mind:</p>
+                  
+                  <ul>
+                    <li class="bodylink">H<sub>0</sub>, that latitude has no bearing on the factor under study</li>
+                    <li class="bodylink">H<sub>1</sub>, that latitude has a relationship with the factor under study</li>
+                  </ul>
+                <p>  
+                  The results for the four analyses are discussed on their respective pages, which can be accessed 
+                  from the Project Visualizations pane. 
+
+                </p>
             </div>
             <div class = "col-md-4">
               <h1>Project Visualizations</h1>
@@ -99,7 +117,7 @@
     <!--My color bar at the bottom occurs below this line-->
  
 <div class="footer">
-
+  <a href="8_credits.html" class="credits">Credits and attributions</a>
 </div>
 
 
